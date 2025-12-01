@@ -17,3 +17,22 @@ Clean, maintainable TypeScript + React code
 FastAPI backend integration
 
 The solution closely matches the visual design while maintaining extensibility and readability for production-level systems.
+
+Tech Stack
+Frontend
+
+React (Vite)
+
+TypeScript
+
+TailwindCSS
+
+Custom components built from scratch
+
+Backend
+
+FastAPI
+
+Python
+
+JSON mock data loader
