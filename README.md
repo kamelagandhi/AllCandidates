@@ -1,6 +1,6 @@
 Overview
 
-This project is my completed take-home assignment for the Principal Software Engineer – Frontend role for Tacnique / Ajackus.
+This project is my completed take-home assignment for the Principal Software Engineer – Frontend role
 
 The goal was to implement the “All Candidates” page based on the provided Figma design, following best practices for:
 
