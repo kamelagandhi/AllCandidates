@@ -1,0 +1,76 @@
+/* src/styles/design-tokens.css */
+:root{
+  /* Primary */
+  --primary-blue: #3B7FBF;
+  --primary-blue-hover: #2B6FA8;
+
+  /* Success */
+  --success-green: #10B981;
+  --success-green-light: #D1FAE5;
+
+  /* Danger */
+  --danger-red: #EF4444;
+
+  /* Text */
+  --text-primary: #111827;
+  --text-secondary: #6B7280;
+  --text-tertiary: #9CA3AF;
+
+  /* Backgrounds */
+  --bg-white: #FFFFFF;
+  --bg-gray-50: #F9FAFB;
+  --bg-gray-100: #F3F4F6;
+  --bg-gray-200: #E5E7EB;
+
+  /* Borders */
+  --border-gray: #D1D5DB;
+  --border-light: #E5E7EB;
+
+  /* Typography sizes */
+  --text-2xl: 24px;
+  --text-xl: 20px;
+  --text-lg: 18px;
+  --text-base: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+
+  /* Radii */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-full: 9999px;
+
+  /* Spacing */
+  --page-padding-x: 24px;
+  --page-padding-y: 56px;
+  --sidebar-width: 200px;
+  --content-padding: 24px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+/* small helpers used by non-tailwind pieces */
+.btn-primary {
+  height: 37px;
+  padding: 10px 20px;
+  border-radius: var(--radius-sm);
+  background: var(--primary-blue);
+  color: #fff;
+  font-size: var(--text-sm);
+  font-weight: 500;
+}
+.btn-primary:hover { background: var(--primary-blue-hover); }
+
+.btn-secondary {
+  height: 36px;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-white);
+  border: 1px solid var(--border-gray);
+  color: #374151;
+  font-size: var(--text-sm);
+}
+.btn-secondary:hover { background: var(--bg-gray-50); }
